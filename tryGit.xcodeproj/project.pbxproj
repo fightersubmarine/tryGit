@@ -12,6 +12,7 @@
 		C720B7AC2C6D2F6700A98483 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720B7AB2C6D2F6700A98483 /* MainViewController.swift */; };
 		C720B7B12C6D2F6A00A98483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C720B7B02C6D2F6A00A98483 /* Assets.xcassets */; };
 		C720B7B42C6D2F6A00A98483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C720B7B22C6D2F6A00A98483 /* LaunchScreen.storyboard */; };
+		C720B7C22C6D3CE900A98483 /* IMDIE.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720B7C12C6D3CE900A98483 /* IMDIE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C720B7B02C6D2F6A00A98483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C720B7B32C6D2F6A00A98483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C720B7B52C6D2F6A00A98483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C720B7C12C6D3CE900A98483 /* IMDIE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDIE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C720B7A62C6D2F6700A98483 /* tryGit */ = {
 			isa = PBXGroup;
 			children = (
+				C720B7C02C6D3CD800A98483 /* HELLO */,
 				C720B7BC2C6D2FB600A98483 /* MainScreen */,
 				C720B7BB2C6D2F9E00A98483 /* Core */,
 				C720B7B02C6D2F6A00A98483 /* Assets.xcassets */,
@@ -78,6 +81,14 @@
 				C720B7AB2C6D2F6700A98483 /* MainViewController.swift */,
 			);
 			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		C720B7C02C6D3CD800A98483 /* HELLO */ = {
+			isa = PBXGroup;
+			children = (
+				C720B7C12C6D3CE900A98483 /* IMDIE.swift */,
+			);
+			path = HELLO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			files = (
 				C720B7AC2C6D2F6700A98483 /* MainViewController.swift in Sources */,
 				C720B7A82C6D2F6700A98483 /* AppDelegate.swift in Sources */,
+				C720B7C22C6D3CE900A98483 /* IMDIE.swift in Sources */,
 				C720B7AA2C6D2F6700A98483 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
